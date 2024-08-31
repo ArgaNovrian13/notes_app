@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+}
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.card-divider {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+}
+.card-section {
+  padding: 15px;
+  background: white;
+}
+.button-group {
+  margin-top: 10px;
+}
+.button-group .button {
+  margin: 5px 0;
+  width: 100%;
+}
+.button.primary {
+  background-color: #007bff;
+  color: white;
+}
+.button.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+.button.warning {
+  background-color: #ffc107;
+  color: black;
+}
+.button.alert {
+  background-color: #dc3545;
+  color: white;
+}
+.button.primary:hover,
+.button.secondary:hover,
+.button.warning:hover,
+.button.alert:hover {
+  opacity: 0.8;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group-field {
+  width: 100%;
+}
+
+.input-group-button .button {
+  margin-left: 0;
+}
+
+.alert.callout {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 20px;
+}

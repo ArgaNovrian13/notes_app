@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", system-ui;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.form-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.form-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.form-container h1 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  font-size: 1rem;
+  color: #555;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.form-group textarea {
+  resize: vertical;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.button-container .button {
+  flex: 1;
+  margin: 0 5px;
+}
+.message-container {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
